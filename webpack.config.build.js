@@ -13,8 +13,8 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	 plugins: [
-	 new ExtractTextPlugin('styles.css', {allChunks: true}),
-	 new webpack.optimize.UglifyJsPlugin({minimize: true})
+		new ExtractTextPlugin('styles.css', {allChunks: true}),
+	 	new webpack.optimize.UglifyJsPlugin({minimize: true})
 	 ],
 	module : {
 		loaders: [

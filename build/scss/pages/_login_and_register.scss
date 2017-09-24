@@ -17,11 +17,14 @@
 .login-page,
 .register-page {
   background: $gray;
+  _background: $body-bg;
+  
 }
 
 .login-box,
 .register-box {
-  width: 360px;
+  _width: 360px;
+  width: 100%;
   margin: 7% auto;
   @media (max-width: $screen-sm) {
     width: 90%;
@@ -31,7 +34,9 @@
 
 .login-box-body,
 .register-box-body {
-  background: #fff;
+  _background: #fff;
+  background: #fef194;
+  
   padding: 20px;
   border-top: 0;
   color: #666;
