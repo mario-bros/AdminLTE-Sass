@@ -145,6 +145,10 @@ body.hold-transition {
   min-height: 250px;
   padding: 15px;
   @include container-fixed($grid-gutter-width);
+
+  &.gradient {
+    background-image: linear-gradient(220deg, #434363 13%, #f2295b 100%);
+  }
 }
 
 /* H1 - H6 font */
