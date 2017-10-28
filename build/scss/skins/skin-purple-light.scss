@@ -128,4 +128,16 @@
             }
         }
     }
+    
+    .main-footer {
+        margin-left: 0;
+        padding: 0;
+        
+        > #copyright {
+            color: white;
+            background-color: #212326;
+            padding : 1.5em 1.25em;
+            width: 100%;
+        }
+    }
 }
